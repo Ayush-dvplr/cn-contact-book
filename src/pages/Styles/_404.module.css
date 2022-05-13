@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 10px;
+}
+
+.NotFound {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(163, 200, 90);
+}
+
+.NotFound div {
+  text-align: center;
+}
+
+.backHome {
+  margin-top: 20px;
+  width: fit-content;
+  background-color: rgb(163, 200, 90);
+  font-size: 25px;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}

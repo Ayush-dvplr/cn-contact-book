@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.imageBox,
+.imageBox img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.imageBox img {
+  border-radius: 0px;
+}
+.container div:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.backHome {
+  margin-top: 20px;
+  width: fit-content;
+  background-color: rgb(163, 200, 90);
+  font-size: 25px;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}

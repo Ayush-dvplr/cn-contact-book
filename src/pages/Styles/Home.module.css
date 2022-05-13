@@ -1,0 +1,106 @@
+.container {
+  padding: 0px 0px;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 10px;
+  border: 1px solid grey;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contactBox:hover {
+  background-color: rgb(198, 222, 151);
+}
+
+.name {
+  display: flex;
+  width: 24%;
+  cursor: pointer;
+}
+
+.phone {
+  display: flex;
+  width: 24%;
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  width: 25%;
+  cursor: pointer;
+}
+
+.website {
+  display: flex;
+  width: 24%;
+  cursor: pointer;
+}
+
+.createNew {
+  background-color: yellowgreen;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.createNew,
+.createNew img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 840px) {
+  .name {
+    display: flex;
+    width: 30%;
+  }
+
+  .phone {
+    display: flex;
+    width: 25%;
+  }
+
+  .email {
+    display: flex;
+    width: 40%;
+  }
+
+  .website {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .name {
+    display: flex;
+    width: 90%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .website {
+    display: none;
+  }
+  .createNew {
+    background-color: yellowgreen;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+}
